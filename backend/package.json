@@ -1,0 +1,20 @@
+{
+  "name": "dsa-master-ai-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Backend API for DSA MASTER AI - Gemini Powered C DSA Platform",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": ["dsa", "c-programming", "gemini-ai", "academic", "engineering"],
+  "author": "DSA MASTER AI Team",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
