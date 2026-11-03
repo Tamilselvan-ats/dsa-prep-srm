@@ -4,6 +4,7 @@
   "private": true,
   "description": "DSA MASTER AI — Complete AI-Powered DSA Learning Platform in C for Engineering Students",
   "scripts": {
+    "build": "npm --prefix frontend run build",
     "dev:backend": "cd backend && npm run dev",
     "dev:frontend": "cd frontend && npm run dev",
     "build:frontend": "cd frontend && npm run build",
